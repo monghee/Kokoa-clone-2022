@@ -17,3 +17,6 @@
 .icon-row__icon span {
   margin-top: 20px;
 }
+.more-screen .icon-row__icon {
+  padding-top: 30px;
+}
