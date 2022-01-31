@@ -1,0 +1,38 @@
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+.screen-header__icons {
+  position: relative;
+}
+.screen-header__icons > .badge {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 35px;
+}
+.screen-header__icons > .screen-header-2-icons {
+  left: 75px;
+}
+.screen-header__icons > .screen-header-3-icons {
+  left: 125px;
+}
+.setting-column__title {
+  position: relative;
+}
+.setting-column__title .badge {
+  font-size: 15px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+}

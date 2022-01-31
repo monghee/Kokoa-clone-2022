@@ -1,0 +1,31 @@
+.setting-list__admin,
+.setting-list__user {
+  padding-bottom: 30px;
+}
+.settings__setting {
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+.settings__setting:last-child {
+  border-bottom: none;
+}
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  color: var(--font-opacity);
+}
+.setting-list__user {
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
